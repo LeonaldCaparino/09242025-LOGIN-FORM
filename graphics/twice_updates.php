@@ -18,7 +18,7 @@ if (!isset($_SESSION['email'])) {
 
     <div class="max-w-6xl mx-auto p-6">
         <h1 class="text-44xl font-bold text-center text-pink-600 mb-10">
-            🎤 WELCOME TO TWICE UPDATES 🎤
+            🎤 TWICE PROFILE 🎤
         </h1>
 
         <!-- Members Grid -->
