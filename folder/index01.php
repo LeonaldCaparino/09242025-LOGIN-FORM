@@ -6,10 +6,10 @@
     <title>TWICE Login Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-yellow-200 min-h-screen flex items-center justify-center">
+<body class="bg-blue-200 min-h-screen flex items-center justify-center">
 
     <div class="bg-white bg-opacity-95 p-8 rounded-2xl shadow-lg w-full max-w-md">
-        <h1 class="text-3xl font-bold text-center text-pink-600 mb-6">Welcome ONCE 💖</h1>
+        <h1 class="text-3xl font-bold text-center text-pink-600 mb-6">Welcome ONCE!</h1>
 
         <form action="login.php" method="POST" class="space-y-4">
             <div>

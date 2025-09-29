@@ -3,7 +3,7 @@ session_start();
 
 // if user is not logged in
 if (!isset($_SESSION['email'])) {
-    header("Location: index.php");
+    header("Location: index01.php");
     exit();
 }
 
@@ -27,7 +27,7 @@ $ouremail = $_SESSION['email'];
         </h1>
 
         <p class="text-gray-600 mb-6">
-            You’re now logged in to your TWICE-themed dashboard 🎶
+            You’re now logged in to your FanBase Account🎶
         </p>
 
         <div class="bg-pink-100 p-6 rounded-xl shadow-md mb-6">
@@ -37,16 +37,16 @@ $ouremail = $_SESSION['email'];
 
         <div class="space-y-3">
             <a href="#" class="block w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
-                🎤 TWICE Updates
+                🎤TWICE Announcement
             </a>
             <a href="#" class="block w-full bg-yellow-400 text-white py-2 rounded-lg hover:bg-yellow-500 transition">
-                📸 Fan Gallery
+                📸Gallery
             </a>
             <a href="#" class="block w-full bg-green-400 text-white py-2 rounded-lg hover:bg-green-500 transition">
-                💬 ONCE Chat
+                💬Talk
             </a>
             <a href="logout.php" class="block w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition">
-                🚪 Logout
+                🚪Logout
             </a>
         </div>
     </div>

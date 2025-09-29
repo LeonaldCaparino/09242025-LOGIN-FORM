@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "connect.php";
+include "connect06.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fullname = mysqli_real_escape_string($conn, $_POST['fullname']);

@@ -62,7 +62,7 @@ $conn->close();
 
         <!-- Buttons -->
             <div class="space-y-3">
-                <a href="twice_updates.php" class="block w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
+                <a href="twice_profiles.php" class="block w-full bg-pink-500 text-white py-2 rounded-lg hover:bg-pink-600 transition">
                     🎤TWICE Profiles
                 </a>
                 <a href="fan_gallery.php" class="block w-full bg-yellow-400 text-white py-2 rounded-lg hover:bg-yellow-500 transition">
